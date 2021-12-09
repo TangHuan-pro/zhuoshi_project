@@ -39,7 +39,7 @@ if __name__ == '__main__':
     start_today = time.time()
     mysql_obj.mysql_input_all_stock_data(stocks_code_df, method='append')
     duration_today = time.time() - start_today
-    logger.info(f'time to get tiday data is {duration_today // 60} mins , {duration_today % 60} s')
+    logger.info(f'time to get today data is {duration_today // 60} mins , {duration_today % 60} s')
 
 
 
